@@ -74,7 +74,6 @@ while True:
         fo = open('competencies.txt')
         print('-------------------------\nInterests')
         for line in fo:
-            #print(line)
             if not line.startswith('Part') :
                 continue
             else:
